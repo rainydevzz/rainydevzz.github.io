@@ -1,0 +1,38 @@
+.greeting {
+    text-align: center;
+    margin-top: 1rem;
+    background-image: linear-gradient(45deg, pink, #7CB9E8,#7CB9E8, pink);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.info h2 {
+    color: pink;
+}
+
+.info ul {
+    color: #afeeee
+}
+
+.links h2 {
+    color: pink;
+}
+
+.elphelt {
+    max-width: 30%;
+    max-height: 30%;
+    float: right;
+    background-position: right;
+    position: relative;
+    margin-top: -12%;
+    display: flex;
+}
+
+.desktop {
+    max-width: 50%;
+    max-height: 50%;
+    float: right;
+    margin-top: -12%;
+}
