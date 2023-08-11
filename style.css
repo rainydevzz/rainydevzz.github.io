@@ -1,3 +1,13 @@
+main {
+    animation: fadeIn;
+    animation-duration: 1s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 .greeting {
     text-align: center;
     margin-top: 1rem;
@@ -26,7 +36,7 @@
     float: right;
     background-position: right;
     position: relative;
-    margin-top: -12%;
+    margin-top: -10.5%;
     display: flex;
 }
 
@@ -34,5 +44,9 @@
     max-width: 50%;
     max-height: 50%;
     float: right;
-    margin-top: -12%;
+    margin-top: -10.5%;
+}
+
+.projects h2 {
+    color: pink;
 }
