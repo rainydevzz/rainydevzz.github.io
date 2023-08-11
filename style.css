@@ -3,9 +3,19 @@ main {
     animation-duration: 1s;
 }
 
+footer {
+    text-align: center;
+}
+
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
 }
 
 .greeting {
@@ -30,6 +40,11 @@ main {
     color: pink;
 }
 
+.projects h2 {
+    color: pink;
+    text-align: center;
+}
+
 .elphelt {
     max-width: 30%;
     max-height: 30%;
@@ -47,6 +62,18 @@ main {
     margin-top: -10.5%;
 }
 
-.projects h2 {
-    color: pink;
+.buttons {
+    background-color: lightcoral;
+    border-color: lightcoral;
+    width: 75%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.button-container {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
