@@ -1,0 +1,27 @@
+main {
+    margin-top: -5%;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+.blazingly {
+    background: -webkit-linear-gradient(red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    color: lightcoral;
+    margin-bottom: -5px;
+    font-size: 250%;
+}
+
+.title h4 {
+    display: inline;
+}
