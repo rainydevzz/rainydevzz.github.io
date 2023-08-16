@@ -7,6 +7,17 @@ footer {
     text-align: center;
 }
 
+img {
+    margin-left: 12px;
+    transform: scale(1);
+    transition-duration: 0.2s;
+}
+
+img:hover {
+    transform: scale(1.08);
+    transition-duration: 0.2s;
+}
+
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
