@@ -1,0 +1,9 @@
+.greeting {
+    text-align: center;
+}
+
+.greeting h1 {
+    color: purple;
+    margin-bottom: -5px;
+    font-size: 250%;
+}
