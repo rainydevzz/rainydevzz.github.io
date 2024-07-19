@@ -4,87 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
-    <link rel="stylesheet" href="./style.css">
     <title>Rainy uwu</title>
 </head>
 <body>
     <main class="container">
-        <nav>
-            <ul>
-              <li><strong>Nav</strong></li>
-            </ul>
-            <ul>
-              <li><a href="/">Back To Home</a></li>
-              <li><a href="/projects">Projects</a></li>
-              <li><a href="https://github.com/rainydevzz" rel="me">Github</a></li>
-            </ul>
-          </nav>
-        <h1 class="greeting">Hai I'm Rainy, Welcome to my Website!</h2>
-        <article class="info">
-            <h2 style="text-align: center;">
-                About Me
-            </h2>
-            <p style="text-align: center;">
-                Hello, nice to meet you! At the time of writing I am a 17yo student. I've been interested in computers and things since forever, and love learning about Linux and servers especially.
-                <br/><br/>
-                <br>
-                <div class="qu">
-                    <h3>
-                        What Games Do I Like?
-                    </h3>
-                    <p>
-                        I play quite a lot! Some of my current favorites include Hearts of Iron 4, Guilty Gear Strive, and YOMI Hustle. I also enjoy modding games. I am currently working on mod(s) for YOMI and hope to release them at some point :3
-                    </p>
-                    <br>
-                    <h3>What Do I Program?</h3>
-                    <p>
-                        My favorite languages are Rust, Typescript, and Python. I enjoy developing anything from complex backends to simple scripts to help me. Check my Projects page (navbar) for more!
-                    </p>
-                    <h3>More Info?</h3>
-                    <p>
-                        Check my public Spacehey profile in the Contact Me Section below!
-                    </p>
-                </div>
-            </p>
-        </article>
-        <article class="links">
-            <h2>Contact Me</h2>
-            <div class="desktop">
-                <img src="./desktop.png">
-            </div>
-            <ul>
-                <li>
-                    <a href="https://matrix.to/#/@rainy:chat.rainys.pet">Matrix</a>
-                </li>
-                <li>
-                    <a href="https://github.com/rainydevzz">Github</a>
-                </li>
-                <li>
-                    <a href="https://spacehey.com/rainyboyo">Spacehey</a>
-                </li>
-                <li>
-                    <a href="https://pronouns.cc/@rainyboyo">Pronouns.cc</a>
-                </li>
-                <li>
-                    Discord - rainy.boyo
-                </li>
-            </ul>
-        </article>
-        <article>
-            <h2>Sticker Section!</h2>
-            <img src="https://cyber.dabamos.de/88x31/linux_mint.gif">
-            <img src="https://cyber.dabamos.de/88x31/linux_powered.gif">
-            <img src="./nix.png">
-            <img src="//cyber.dabamos.de/88x31/powered-by-debian.gif">
-            <img src="https://cyber.dabamos.de/88x31/visitmini.gif">
-            <img src="https://cyber.dabamos.de/88x31/powered-cpp.gif">
-            <img src="https://cyber.dabamos.de/88x31/7zip.gif">
-            <img src="https://capstasher.neocities.org/88x31Buttons/mysql5.gif">
-            <img src="https://capstasher.neocities.org/88x31Buttons/internetarchive.gif">
-        </article>
-        <footer>
-            Thank you for reaching the end!
-        </footer>
+        <img src="./mimi1.png">
+        <h1 class="greeting">rainy</h1>
+        <h5 class="greeting">17yo dev, linux user, self-hoster, software dev student, and gamer</h5>
+        <p class="bio">Hi! I love programming, OSS, watching stuff like YT, Anime, and other shows, gaming, and Linux. NixOS btw :3</p>
+        <br>
+        <p>If you're interested in getting in touch, check the links below! Most of my newer projects will probably be on Codeberg but I have a lot on Github as well.</p>
+        <p class="links">
+            <a href="https://github.com/rainydevzz">Github</a>
+            ·
+            <a href="https://codeberg.org/rainy">Codeberg</a>
+            ·
+            <a href="https://spacehey.com/rainyboyo">Spacehey</a>
+            ·
+            <a href="https://matrix.to/#/@rainy:chat.rainys.pet">Matrix</a>
+            ·
+            <a href="https://discord.gg/eujQrr3qhh">Discord</a>
+        </p>
+        <h6>The Discord link is to a server for one of my current projects. You can also just add me @rainy.boyo</h6>
+        <br>
+        <h6>art credit to crispytyph</h6>
     </main>
 </body>
 </html>
+<style>
+main {
+    animation: fadeIn;
+    animation-duration: 1s;
+}
+
+footer {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -18%;
+    margin-bottom: -12%;
+    width: 50%;
+    transform: scale(0.5);
+    transition-duration: 0.1s;
+    border-radius: 50%;
+}
+
+h1 {
+    margin-bottom: -6px;
+}
+
+img:hover {
+    transform: scale(0.55);
+    transition-duration: 0.2s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes up {
+    0% { transform: translate(0, -10px); }
+    100% { transform: translate(0, 0px); }
+}
+
+.greeting {
+    text-align: center;
+    animation: up;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+.bio {
+    margin-top: -6px;
+    margin-bottom: -1%;
+}
+
+.links {
+    margin-top: -2%;
+    margin-bottom: -2%;
+}
+
+p {
+    text-align: center;
+}
+
+h6 {
+    font-size: small;
+    text-align: center;
+}
+</style>
