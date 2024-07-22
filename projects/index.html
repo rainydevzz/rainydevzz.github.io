@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="container">
+        <div class="project-list">    
+            <div class="project">
+                <h2>Soteria</h2>
+                <h4>FOSS Social Media Platform that mostly kinda doesn't suck</h4>
+                <a href="https://codeberg.org/soteria/soteria">
+                    <img src="../soteria.png">
+                </a>
+            </div>
+            <div class="project">
+                <h2>Strive Bot</h2>
+                <h4>Query GGST ELO stats with ease. Powered by puddle.farm</h4>
+                <a href="https://codeberg.org/rainy/strive-bot">
+                    <img src="../strive.png">
+                </a>
+            </div>
+        </div>
+        <p><a href="/">Home</a></p>
+    </main>
+</body>
+</html>
+<style>
+    img {
+        scale: 75%;
+        margin-top: -10%;
+        transition-duration: 0.1s;
+    }
+    img:hover {
+        transform: scale(1.05);
+        transition-duration: 0.2s;
+    }
+    .project-list {
+        text-align: center;
+        margin-left: -15%;
+        margin-right: -15%;
+    }
+    .project {
+        float: left;
+        width: 50%;
+    }
+    h4 {
+        margin-top: -4%;
+    }
+    p {
+        text-align: center;
+    }
+</style>
