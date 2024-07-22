@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
     <title>Rainy uwu</title>
+    <meta content="Rainy :3" property="og:title">
+    <meta content="rainydevzz.github.io" property="og:site_name">
+    <meta name="theme-color" content="#4169e1">
+    <meta content="https://codeberg.org/avatars/e99784375da1a59b46a5410f57a99f89815207f2fc8e5341e8905ada279f0ac2?size=512" property='og:image'>
 </head>
 <body>
     <main class="container">
@@ -51,7 +55,7 @@ img {
     margin-bottom: -12%;
     width: 50%;
     transform: scale(0.5);
-    transition-duration: 0.1s;
+    transition-duration: 1s;
     border-radius: 50%;
 }
 
@@ -60,8 +64,8 @@ h1 {
 }
 
 img:hover {
-    transform: scale(0.55);
-    transition-duration: 0.2s;
+    transform: scale(0.55) rotate(360deg);
+    transition-duration: 2s;
 }
 
 @keyframes fadeIn {
@@ -74,11 +78,30 @@ img:hover {
     100% { transform: translate(0, 0px); }
 }
 
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
 .greeting {
     text-align: center;
     animation: up;
     animation-duration: 1s;
     animation-timing-function: ease-in;
+}
+
+.greeting:hover {
+    background-image: linear-gradient(to right, #b58b1d, #f5f5dc);
+
+    background-clip: text;
+
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
 }
 
 .bio {
