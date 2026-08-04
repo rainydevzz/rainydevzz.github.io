@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RGH Blog</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+<body>
+  <main class="container" id="container">
+  </main>
+  <script>
+    fetch("./rgh.md")
+      .then(response => response.text())
+      .then(markdown => {
+        document.getElementById("container").innerHTML = marked.parse(markdown);
+        document.getElementById("container").innerHTML += "<a href=\"/index.html\">Home</a>";
+      });
+  </script>
+</body>
+</html>
+<style>
+</style>
