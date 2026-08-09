@@ -22,7 +22,7 @@ A quick note that this blog will not be critiquing the quality of suckless proje
 
   
 
-Minimalism isn't a bad idea in theory. However, the way suckless perceives it is flawed in my opinion. They treat as some holy abstract goal to achieve, instead of describing it as a clear quality present in any piece of software. It's a, perhaps purposefully, esoteric view on what "minimalism" is
+Minimalism isn't a bad idea in theory. However, the way suckless perceives it is flawed in my opinion. They treat as some holy abstract goal to achieve, instead of describing it as a clear quality present in any piece of software. It's a, perhaps purposefully, esoteric view on what "minimalism" is.
 
   
 
@@ -30,7 +30,7 @@ Minimalism isn't a bad idea in theory. However, the way suckless perceives it is
 
   
 
-Lines of code does not have any direct correlation to code quality. To go as far as to say one is delusional for even thinking that lines of code points to some level of progress is, in my eyes, needless toxicity and elitism. This sort of behavior is what gets the
+Lines of code does not have any direct correlation to code quality. To go as far as to say one is delusional for even thinking that lines of code points to some level of progress is, in my eyes, needless toxicity and elitism.
 
   
 
